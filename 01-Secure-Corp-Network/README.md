@@ -13,7 +13,6 @@ In this lab, I transitioned from software logic to network infrastructure. I des
 3. **Security:** Implemented a Standard Access Control List (ACL) to permit specific employee devices while denying all guest traffic to the internal server.
 
 ## 💻 Key Commands Used
-```bash
 # Assigning an IP to the Router Interface
 interface GigabitEthernet0/0
  ip address 192.168.1.1 255.255.255.0
@@ -23,6 +22,7 @@ interface GigabitEthernet0/0
 access-list 1 permit 192.168.2.10
 access-list 1 permit 192.168.2.11
 # Note: Implicit deny blocks everyone else!
+
 
 ![Network Topology](Topology-Map.png)
 
