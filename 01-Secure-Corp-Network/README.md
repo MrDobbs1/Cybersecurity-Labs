@@ -29,5 +29,5 @@ access-list 1 permit 192.168.2.11
 ## The Topology Map:
 ![Network Topology](Topology-Map.png)
 
-## The denied access from the Guest PC
+## The denied access from the Guest PC:
 ![Network Topology](Result-of-Lab.png)
